@@ -71,3 +71,6 @@
 .floating-copy{display:grid;min-width:138px;text-align:center;overflow:hidden}.floating-copy b{grid-area:1/1;font-size:.78rem;font-weight:800;white-space:nowrap;opacity:0;transform:translateY(10px);animation:floating-message 6s ease-in-out infinite}.floating-copy b:nth-child(2){animation-delay:3s}@keyframes floating-message{0%{opacity:0;transform:translateY(10px)}10%,42%{opacity:1;transform:translateY(0)}50%,100%{opacity:0;transform:translateY(-10px)}}
 .icon-image{display:block;object-fit:contain;filter:none}
 @media(prefers-reduced-motion:reduce){.floating-copy b{animation:none;opacity:0;transform:none}.floating-copy b:first-child{opacity:1}}
+
+/* Rendimiento móvil */
+@media(max-width:760px){.site-header{backdrop-filter:none;background:rgba(249,246,244,.98)}.hero .btn,.hero .btn:not(.btn-primary){backdrop-filter:none}.intro-splash.intro-done{filter:none}.video-gallery video,.ai-video-gallery video{transform:translateZ(0)}}
