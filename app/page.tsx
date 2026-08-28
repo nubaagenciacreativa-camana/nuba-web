@@ -15,7 +15,7 @@ const services=[
 const process=[
  ["01","Descubre","Conocemos tu negocio y lo que quieres lograr."],["02","Planifica","Definimos una ruta clara para tu contenido."],["03","Crea","Producimos las piezas con dirección visual."],["04","Conecta","Llevamos tu mensaje a las personas correctas."],["05","Impulsa","Medimos, aprendemos y seguimos creciendo."]
 ];
-const graphics=[1,2,3,4,5,6];
+const graphics=[9,8,7,6,5,4,3,2,1];
 const videos=[["inventario-hidratop.mp4","Contenido comercial"],["razones-hidratop.mp4","Contenido informativo"],["playa.mp4","Producción lifestyle"],["san-valentin.mov","Campaña de temporada"],["kekitos-fit.mp4","Video de producto"],["video - hidratop.mp4","Contenido para Hidratop"],["video comercial - fernandez catering.mp4","Contenido comercial para Fernández Catering"],["video tortas - fernandez catering.mp4","Producto para Fernández Catering"],["video - krysfit.mp4","Contenido para Krysfit"]];
 const clientLogos=["client-01.png","client-02.png","client-03.png","client-04.png","client-05.png","client-06.png"];
 
