@@ -24,6 +24,7 @@ const aiProjects=[
 ];
 
 function Icon({name}:{name:"whatsapp"|"mail"|"instagram"|"phone"}){
+ if(name==="whatsapp")return <img className="icon icon-image" src="/media/icons/whatsapp.png" alt="" aria-hidden="true"/>;
  const paths={whatsapp:<><path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.1 9.1 0 0 1-3.8-.9L3 21l1.8-5a8.7 8.7 0 1 1 16.2-4.5Z"/><path d="M8.2 8.1c.3-.7.6-.7.9-.7h.4c.2 0 .4.1.5.5l.8 1.9c.1.3.1.5-.1.7l-.6.8c-.2.2-.2.4-.1.6.6 1.2 1.6 2.2 2.8 2.8.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.9.9c.3.1.5.3.5.5 0 .7-.4 1.5-.9 2-.6.6-1.4.9-2.3.8-1.5-.2-3.7-1.1-5.4-2.7-1.5-1.4-2.4-3.1-2.6-4.4-.2-1 .2-1.8.7-2.4.4-.3.8-.2 1.2 0Z"/></>,mail:<><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></>,instagram:<><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></>,phone:<path d="M7.2 3.5 10 7.1 8.4 9.3c1.1 2.5 3 4.4 5.5 5.5l2.2-1.6 3.6 2.8c.5.4.6 1 .4 1.6-.5 1.4-1.8 2.4-3.3 2.3C10.1 19.4 4.6 13.9 4.1 7.2 4 5.7 5 4.4 6.4 3.9c.3-.1.6-.2.8-.4Z"/>};
  return <svg className="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">{paths[name]}</svg>
 }
