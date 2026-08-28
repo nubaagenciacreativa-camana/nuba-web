@@ -61,3 +61,8 @@
 
 /* Proporciones finales del logotipo animado */
 .intro-logo{letter-spacing:0}.intro-logo span{margin-right:.035em}.intro-logo span:nth-child(4){margin-right:0}.intro-logo i{width:.13em;height:.13em;margin-left:.04em;margin-bottom:0}
+
+/* Composición IA: tres verticales y dos horizontales */
+.ai-video-gallery{grid-template-columns:repeat(6,1fr);gap:16px}.ai-video-gallery .ai-project.vertical{grid-column:span 2}.ai-video-gallery .ai-project.horizontal{grid-column:span 3}.ai-video-gallery .ai-project.vertical video{aspect-ratio:9/13}.ai-video-gallery .ai-project.horizontal video{aspect-ratio:16/9}
+@media(max-width:760px){.ai-video-gallery{grid-template-columns:repeat(2,1fr)}.ai-video-gallery .ai-project.vertical,.ai-video-gallery .ai-project.horizontal{grid-column:span 1}.ai-video-gallery .ai-project.vertical:nth-child(3){grid-column:span 2;width:calc(50% - 8px);justify-self:center}.ai-video-gallery .ai-project.horizontal{grid-column:span 2}.ai-video-gallery .ai-project.horizontal video{aspect-ratio:16/9}}
+@media(max-width:480px){.ai-video-gallery{grid-template-columns:1fr}.ai-video-gallery .ai-project.vertical,.ai-video-gallery .ai-project.vertical:nth-child(3),.ai-video-gallery .ai-project.horizontal{grid-column:auto;width:100%}.ai-video-gallery .ai-project.vertical video{aspect-ratio:9/12}.ai-video-gallery .ai-project.horizontal video{aspect-ratio:16/9}}
