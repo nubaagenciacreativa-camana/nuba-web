@@ -58,3 +58,6 @@
 @keyframes intro-letter{to{opacity:1;filter:blur(0);transform:translateY(0)}}@keyframes intro-dot{0%{opacity:0;transform:translateY(-2.5em)}55%{opacity:1;transform:translateY(.18em)}75%{transform:translateY(-.09em)}100%{opacity:1;transform:translateY(0)}}@keyframes intro-caption{to{opacity:1;transform:translateY(0)}}
 @media(max-width:480px){.intro-logo{font-size:clamp(4.4rem,24vw,7rem)}.intro-splash>p{font-size:.52rem;letter-spacing:.24em;margin-top:26px}}
 @media(prefers-reduced-motion:reduce){.intro-splash{transition:opacity .2s}.intro-logo span,.intro-logo i,.intro-splash>p{animation:none;opacity:1;filter:none;transform:none}}
+
+/* Proporciones finales del logotipo animado */
+.intro-logo{letter-spacing:0}.intro-logo span{margin-right:.035em}.intro-logo span:nth-child(4){margin-right:0}.intro-logo i{width:.13em;height:.13em;margin-left:.04em;margin-bottom:0}
