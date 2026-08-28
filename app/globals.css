@@ -46,3 +46,9 @@
 .real-gallery{display:block;columns:3;column-gap:16px;grid-auto-rows:unset}.real-gallery a:nth-child(n){display:block;grid-column:auto!important;grid-row:auto!important;aspect-ratio:auto!important;margin:0 0 16px;break-inside:avoid;border-radius:18px;background:#f1eeeb;box-shadow:0 1px 0 rgba(30,30,30,.05);transition:transform .3s,box-shadow .3s}.real-gallery img{display:block;width:100%;height:auto!important;object-fit:contain;border-radius:inherit}.real-gallery a:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(30,30,30,.12)}.real-gallery a:hover img{transform:none}
 @media(max-width:760px){.real-gallery{display:block;columns:2;column-gap:10px}.real-gallery a:nth-child(n){margin-bottom:10px;border-radius:13px}}
 @media(max-width:480px){.real-gallery{columns:1}.real-gallery a:nth-child(n){margin-bottom:12px}}
+
+/* Tres capacidades principales */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px;border:0}.service-row{display:flex;flex-direction:column;gap:18px;min-height:315px;padding:30px;border:1px solid var(--line);border-radius:var(--radius);background:rgba(255,255,255,.48)}.service-row .service-no{margin-bottom:auto}.service-row h3{font-size:clamp(1.6rem,2.5vw,2.25rem)}.service-row p{font-size:.93rem;line-height:1.75}.service-row:hover{background:white;transform:translateY(-6px);box-shadow:0 18px 45px rgba(30,30,30,.07)}
+
+/* Hero móvil: máxima legibilidad sin ocultar la fotografía */
+@media(max-width:760px){.services-grid{grid-template-columns:1fr;gap:12px}.service-row{min-height:230px;padding:25px}.service-row p{grid-column:auto}.hero-grid:after{background:linear-gradient(180deg,rgba(249,246,244,1) 0%,rgba(249,246,244,.98) 56%,rgba(249,246,244,.82) 72%,rgba(249,246,244,.16) 100%)}.hero h1{font-size:clamp(2.8rem,11.8vw,4.5rem);line-height:.88;letter-spacing:-.075em}.hero-copy{margin-top:28px}.hero-copy .hero-sub,.hero-copy .lead{color:#514d49}.video-gallery article{line-height:0}}
