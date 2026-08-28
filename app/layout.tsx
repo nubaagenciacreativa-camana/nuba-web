@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "NUBA | Agencia Creativa",
   description: "Agencia creativa en Camaná, Arequipa. Contenido, redes sociales, fotografía, video y diseño para negocios.",
-  metadataBase: new URL("https://nuba-web.vercel.app"),
+  metadataBase: new URL("https://nubaagenciacreativa.com"),
   openGraph: {
     title: "NUBA | Agencia Creativa",
     description: "Creamos contenido para hacer crecer tu negocio desde Camaná, Arequipa.",
